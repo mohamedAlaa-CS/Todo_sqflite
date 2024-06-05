@@ -158,9 +158,9 @@ class HomePage extends StatelessWidget {
                         .closed
                         .then((value) {
                           cubit.changeBottomSheetState(isShow: false, icon: Icons.edit);
-                          // timeController.text='';
-                          // titleController.text='';
-                          // dateController.text='';
+                          timeController.text='';
+                          titleController.text='';
+                          dateController.text='';
 
                     });
                         cubit.changeBottomSheetState(isShow: true, icon: Icons.add);
